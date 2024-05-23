@@ -1,0 +1,81 @@
+Operators
+- Operators are symbols that tell the compiler to perform some specific operations.
+
+1. Arithmetic Operators
+    - Binary operators ('+', '-', '*')
+    - Unary operators ('++' (incremento), '--'(decrementor))
+
+
+Pre Increment (++a) :- Increment a instantly
+
+int a = 10;
+int b;
+
+b = ++a
+cout<<a<<" "<<b<<endl;
+
+Output :  11 11
+
+
+Post Increment(a++) :- Current value of a is preserved temporarily. a will get incremented before next statement is executed
+
+int a = 10;
+int b;
+
+b = a++;
+cout<<a<<" "<<b<<endl;
+
+Output : 11 10
+
+
+2. Relational Operators
+
+- Defines a relation between 2 operands
+- Return a boolean value (true, false)
+
+
+== Gives true value if both operans have equal value
+!= Gives true if both operands are not equal
+> Gives true if left operands is more than right operand
+< Gives true if left operand is less than right operand
+>= Gives true if left operand is more than or equal to right operand
+<= Gives true if left operands is less than or equal to right operand
+
+
+3. Logical operators
+
+- Used to connect multiple conditions/expressions together or to reverse logical value.
+
+&& AND gives us true if both operands are true, else false
+|| OR gives us true if at least one of the operands are true
+! NOT gives the opposite logical value of the operand. True becomes false and false become true
+
+
+4. Bitwise Operators
+
+- Operate on the bits and perform bit-by-bit operations
+
+& AND operator, | OR operator,  ^ XOR operator, ~ Ones complement
+<< Left shift operator, >> Right shif operator
+
+a << n ----------------> a* 2^n
+a >> n ----------------> a/ 2^n
+
+5. Assignment Operators
+
+= Assigns value of right operand to left operand
++= Assigns sum of two operands to left operand
+-= Assigns difference of two operand to left operand
+*= Assigns product of two operand to left operand
+/= Assigns the quotient of two operands to left operand
+
+
+6. Miscellaneous Operators
+
+sizeof() Returs the size of variable
+condition ? x : y   Returns value of X if condition is true or else value of y(Ternary operator)
+cast  Convert one data type to another
+comma(,) Causes a sequence of operations to be performed
+& Returns the address of a variable
+* Pointer to a variable
+
